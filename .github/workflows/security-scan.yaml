@@ -7,6 +7,9 @@ on:
   pull_request:
     branches:
       - main
+permissions:
+  contents: read
+  id-token: write
 
 jobs:
   security-scans:
@@ -53,6 +56,14 @@ jobs:
       - name: Checkov Scan (Terraform)
         run: |
           checkov -d .
+
+      - name: Install tfsec
+        run: |
+          curl -s https://raw.githubusercontent.com/aquasecurity/tfsec/master/scripts/install_linux.sh | bash
+
+      - name: tfsec Scan (Terraform)
+        run: |
+          tfsec .
 
       - name: Scan K8s Manifests with Checkov
         run: |
