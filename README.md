@@ -1,5 +1,4 @@
 ![CI Security Scan](https://img.shields.io/github/actions/workflow/status/D-Stap/ci-security-pipeline/security-scan.yaml?branch=main)
-
 # security-pipeline
 # CI/CD Security Validation
 
