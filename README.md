@@ -36,6 +36,8 @@ The pipeline uses open-source tools to enforce security best practices and catch
 ![alt text](image-1.png)
 ![alt text](image-2.png)
 ![alt text](image-3.png)
+<img width="1409" height="557" alt="image" src="https://github.com/user-attachments/assets/af542522-0d9b-4386-b881-e91f07b08e4c" />
+
 
 
 
