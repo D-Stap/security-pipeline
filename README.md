@@ -1,4 +1,4 @@
-![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/D-Stap/ci-security-pipeline/security-scan.yaml?branch=main)
+![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/D-Stap/ci-security-pipeline/.github/worklfows/security-scan.yaml?branch=main)
 # security-pipeline
 # CI/CD Security Validation
 
