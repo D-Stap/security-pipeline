@@ -57,6 +57,14 @@ jobs:
         run: |
           checkov -d .
 
+      - name: Install tfsec
+        run: |
+          curl -s https://raw.githubusercontent.com/aquasecurity/tfsec/master/scripts/install_linux.sh | bash
+
+      - name: tfsec Scan (Terraform)
+        run: |
+          tfsec .
+
       - name: Scan K8s Manifests with Checkov
         run: |
           checkov -d ./k8s
