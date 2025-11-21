@@ -4,5 +4,5 @@ resource "aws_s3_bucket" "bad_example" {
 
 resource "aws_s3_bucket_acl" "bad_example" {
   bucket = aws_s3_bucket.bad_example.id
-  acl    = "public-read"  # Insecure: public read access
+  acl    = "public-read" # Insecure: public read access
 }
