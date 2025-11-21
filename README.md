@@ -40,5 +40,13 @@ The pipeline uses open-source tools to enforce security best practices and catch
 <img width="1409" height="557" alt="image" src="https://github.com/user-attachments/assets/af542522-0d9b-4386-b881-e91f07b08e4c" />
 
 
+## 🧠 Why This Matters
+
+Security misconfigurations in Terraform, Kubernetes, and app code often go unnoticed until production. This project provides a portable and open-source solution to:
+
+- Prevent deploying insecure S3 buckets or overly permissive IAM policies
+- Catch hardcoded secrets in Python apps before release
+- Detect dangerous container configurations (e.g., privileged mode)
+- Enforce a shift-left security model in DevOps pipelines
 
 
